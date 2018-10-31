@@ -1,0 +1,26 @@
+{
+  "name": "uli3gpp",
+  "version": "0.0.1",
+  "description": "Parse 3GPP User Location Information",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumm/3gppuli.git"
+  },
+  "author": {
+    "name": "Jan Badenhorst",
+    "email": "janhendrik.badenhorst@gmail.com"
+  },
+  "keywords": [
+    "3GPP",
+    "ULI"
+  ],
+  "main": "main.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "mocha --recursive ./test/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
